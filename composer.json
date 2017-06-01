@@ -1,0 +1,21 @@
+{
+    "name": "lifevar/wp-core",
+    "description": "wordpress core",
+    "type": "wordpress-core",
+    "authors": [
+        {
+            "name": "Ningfeng Yang",
+            "email": "nf.yang@lifevar.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "php": ">=5.2.4",
+      "johnpbloch/wordpress": ">=4.7"
+    },
+    "extra": {
+        "wordpress-install-dir": {
+            "wordpress/wordpress": "wordpress"
+        }
+    }
+}
